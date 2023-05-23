@@ -1,5 +1,5 @@
 {
-  "name": "benchmark-testing",
+  "name": "js-benchmark-testing",
   "version": "1.0.0",
   "description": "Using this repository to test the performance of different operations",
   "main": "main.ts",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tajnur007/benchmark-testing.git"
+    "url": "git+https://github.com/tajnur007/js-benchmark-testing.git"
   },
   "keywords": [],
   "author": "Kazi Tajnur Islam",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tajnur007/benchmark-testing/issues"
+    "url": "https://github.com/tajnur007/js-benchmark-testing/issues"
   },
-  "homepage": "https://github.com/tajnur007/benchmark-testing#readme"
+  "homepage": "https://github.com/tajnur007/js-benchmark-testing#readme"
 }
