@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Using this repository to test the performance of different operations",
   "main": "main.ts",
+  "engines": {
+    "node": "^17.0.0"
+  },
   "scripts": {
     "test": "node main.js"
   },
