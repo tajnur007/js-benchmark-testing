@@ -4,7 +4,7 @@
   "description": "Using this repository to test the performance of different operations",
   "main": "main.ts",
   "scripts": {
-    "test": "node main.ts"
+    "test": "node main.js"
   },
   "repository": {
     "type": "git",
