@@ -5,7 +5,22 @@ const {
   LIMIT_STRINGS,
 } = require('./constants');
 
+//? Every function will be called until reach limit
 function runProcess(...functions) {
+  coreProcess(functions);
+}
+
+//? Every function will be called only once by passing limit as param
+function runProcessOnce(...functions) {
+  coreProcess(functions, true);
+}
+
+/**
+ *? Handling how process will be called based on passing the
+ *? isCallOnce param. This method will serve for both the 
+ *? runProcess() and runProcessOnce() methods.
+ */
+function coreProcess(functions, isCallOnce = false) {
   for (let func of functions) {
     decorateFunctionName(func.name);
 
@@ -14,7 +29,11 @@ function runProcess(...functions) {
         const startTime = Date.now();
         const limitString = LIMIT_STRINGS[limit];
 
-        while (limit--) func();
+        if (isCallOnce) {
+          func(limit);
+        } else {
+          while (limit--) func();
+        }
 
         const endTime = Date.now();
         console.log(limitString, endTime - startTime, 'ms');
@@ -47,4 +66,5 @@ function decorateFunctionName(name, isStarting = true) {
 
 module.exports = {
   runProcess,
+  runProcessOnce
 };

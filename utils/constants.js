@@ -1,3 +1,5 @@
+'use strict'
+
 const TESTING_LIMITS = [
   1000,         // 10^3
   10000,        // 10^4
