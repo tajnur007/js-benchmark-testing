@@ -3,6 +3,7 @@
 const { runDeepCloneProcess } = require('./tests/deep-clone');
 const { runForLoopComparisonProcess } = require('./tests/for-loop-comparison');
 const { runIfElseIfVsSwitchCaseProcess } = require('./tests/if-else-if-vs-switch-case');
+const { runNTimesTwoVsNPlusNProcess } = require('./tests/n-times-two-vs-n-plus-n');
 const { runOddEvenComparisonProcess } = require('./tests/odd-even-comparison');
 const { runTernaryOperatorVsIfElseProcess } = require('./tests/ternary-operator-vs-if-else');
 
@@ -13,5 +14,6 @@ const { runTernaryOperatorVsIfElseProcess } = require('./tests/ternary-operator-
   // runForLoopComparisonProcess();
   // runTernaryOperatorVsIfElseProcess();
   // runOddEvenComparisonProcess();
-  runIfElseIfVsSwitchCaseProcess();
+  // runIfElseIfVsSwitchCaseProcess();
+  runNTimesTwoVsNPlusNProcess();
 })();
