@@ -6,7 +6,7 @@ const { runProcess } = require('../utils/helpers');
 const nums = new Array(1000).fill(0).map((v, i) => i + 1);
 
 function runTernaryOperatorVsIfElseProcess() {
-  console.log('Starting ternary operator vs if-else test.....');
+  console.log('\nStarting ternary operator vs if-else test.....');
   runProcess(usingTernaryOperator, usingIfElse);
   console.log('Process finished!\n');
 }

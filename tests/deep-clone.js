@@ -32,7 +32,7 @@ function usingStructuredClone() {
 }
 
 function runDeepCloneProcess() {
-  console.log('Starting deep clone test.....');
+  console.log('\nStarting deep clone test.....');
   runProcess(usingJsonMethods, usingStructuredClone);
   console.log('Process finished!\n');
 }

@@ -3,7 +3,7 @@
 const { runProcessOnce } = require('../utils/helpers');
 
 function runForLoopComparisonProcess() {
-  console.log('Starting loop comparison test.....');
+  console.log('\nStarting loop comparison test.....');
   runProcessOnce(usingForOf, usingForEach, usingCashedFor);
   console.log('Process finished!\n');
 }

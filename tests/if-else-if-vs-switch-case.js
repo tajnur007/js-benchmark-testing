@@ -5,7 +5,7 @@ const { runProcess } = require('../utils/helpers');
 const animals = ['horse', 'rabbit', 'cat', 'dog', 'bear', 'sheep'];
 
 function runIfElseIfVsSwitchCaseProcess() {
-  console.log('Starting if-else-if ladder vs switch-case test.....');
+  console.log('\nStarting if-else-if ladder vs switch-case test.....');
   runProcess(usingIfElseIfLadder, usingSwitchCase);
   console.log('Process finished!\n');
 }

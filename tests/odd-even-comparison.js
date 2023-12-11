@@ -6,7 +6,7 @@ const { runProcess } = require('../utils/helpers');
 const nums = new Array(1000).fill(0).map((v, i) => i + 1);
 
 function runOddEvenComparisonProcess() {
-  console.log('Starting ternary operator vs if-else test.....');
+  console.log('\nStarting odd-even test using % and & operator.....');
   runProcess(usingModulusOperator, usingAmpersandOperator);
   console.log('Process finished!\n');
 }

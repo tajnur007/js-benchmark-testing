@@ -10,10 +10,10 @@ const { runTernaryOperatorVsIfElseProcess } = require('./tests/ternary-operator-
 
 //? Call imported functions into following IIFE
 (function () {
-  // runDeepCloneProcess();
-  // runForLoopComparisonProcess();
-  // runTernaryOperatorVsIfElseProcess();
-  // runOddEvenComparisonProcess();
-  // runIfElseIfVsSwitchCaseProcess();
+  runDeepCloneProcess();
+  runForLoopComparisonProcess();
+  runTernaryOperatorVsIfElseProcess();
+  runOddEvenComparisonProcess();
+  runIfElseIfVsSwitchCaseProcess();
   runNTimesTwoVsNPlusNProcess();
 })();
