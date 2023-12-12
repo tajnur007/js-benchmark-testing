@@ -1,9 +1,6 @@
 'use strict'
 
-const {
-  TESTING_LIMITS,
-  LIMIT_STRINGS,
-} = require('./constants');
+const { TESTING_LIMITS, LIMIT_STRINGS } = require('./constants');
 
 //? Every function will be called until reach limit
 function runProcess(...functions) {
@@ -26,17 +23,17 @@ function coreProcess(functions, isCallOnce = false) {
 
     for (let limit of TESTING_LIMITS) {
       try {
-        const startTime = Date.now();
+        const startTime = performance.now();
         const limitString = LIMIT_STRINGS[limit];
 
         if (isCallOnce) {
-          func(limit);
+          runFunctionOnce(func, limit);
         } else {
-          while (limit--) func();
+          runFunctionMultipleTimes(func, limit);
         }
 
-        const endTime = Date.now();
-        console.log(limitString, endTime - startTime, 'ms');
+        const endTime = performance.now();
+        console.log(`${limitString} ${endTime - startTime} ms`);
       } catch (err) {
         console.error('Error:', err);
         break;
@@ -45,6 +42,14 @@ function coreProcess(functions, isCallOnce = false) {
 
     decorateFunctionName(func.name, false);
   }
+}
+
+function runFunctionOnce(func, limit) {
+  func(limit);
+}
+
+function runFunctionMultipleTimes(func, limit) {
+  while (limit--) func();
 }
 
 function decorateFunctionName(name, isStarting = true) {
