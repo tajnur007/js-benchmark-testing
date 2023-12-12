@@ -13,9 +13,24 @@
     "type": "git",
     "url": "git+https://github.com/tajnur007/js-benchmark-testing.git"
   },
-  "keywords": [],
+  "keywords": [
+    "JavaScript",
+    "Benchmark",
+    "Testing",
+    "Performance",
+    "Optimization",
+    "Code Comparison",
+    "Deep Clone",
+    "Loops",
+    "Condition Checks",
+    "Bitwise Operations",
+    "Arithmetic Calculations",
+    "Open Source",
+    "Contributions",
+    "Coding Standards"
+  ],
   "author": "Kazi Tajnur Islam",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tajnur007/js-benchmark-testing/issues"
   },
