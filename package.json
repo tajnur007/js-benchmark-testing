@@ -1,7 +1,7 @@
 {
   "name": "js-benchmark-testing",
   "version": "1.0.0",
-  "description": "Using this repository to test the performance of different operations",
+  "description": "Explore the performance nuances of common JavaScript operations with this benchmark testing repository. Compare deep cloning methods, loop constructs, condition checks, bitwise operations, and arithmetic calculations. Optimize your code and make informed decisions based on real-world performance metrics.",
   "main": "main.ts",
   "engines": {
     "node": "^17.0.0"
