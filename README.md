@@ -10,7 +10,7 @@ To run the benchmarks locally, follow these steps:
 
 1. **Clone this repository**: `git clone https://github.com/tajnur007/js-benchmark-testing.git`
 2. **Navigate to the repository**: `cd js-benchmark-testing`
-3. **Run the benchmark tests**: `npm run test`
+3. **Run the benchmark tests**: `npm run benchmark`
 
 ## Table of Contents
 

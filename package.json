@@ -7,7 +7,7 @@
     "node": "^17.0.0"
   },
   "scripts": {
-    "test": "node main.js"
+    "benchmark": "node main.js"
   },
   "repository": {
     "type": "git",
