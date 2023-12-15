@@ -4,7 +4,7 @@ const { runProcessOnce } = require('../utils/helpers');
 
 function runForLoopComparisonProcess() {
   console.log('\nStarting loop comparison test.....');
-  runProcessOnce(usingForOf, usingForEach, usingCashedFor);
+  runProcessOnce(usingForOf, usingForEach, usingCachedFor);
   console.log('Process finished!\n');
 }
 
@@ -26,7 +26,7 @@ function usingForEach(limit) {
   });
 }
 
-function usingCashedFor(limit) {
+function usingCachedFor(limit) {
   let sum = 0;
   const nums = new Array(limit).fill(1);
 
