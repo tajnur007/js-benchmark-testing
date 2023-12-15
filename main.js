@@ -1,15 +1,17 @@
 'use strict'
 
-const { runDeepCloneProcess } = require('./tests/deep-clone');
-const { runForLoopComparisonProcess } = require('./tests/for-loop-comparison');
-const { runIfElseIfVsSwitchCaseProcess } = require('./tests/if-else-if-vs-switch-case');
-const { runNTimesTwoVsNPlusNProcess } = require('./tests/n-times-two-vs-n-plus-n');
-const { runOddEvenComparisonProcess } = require('./tests/odd-even-comparison');
-const { runTernaryOperatorVsIfElseProcess } = require('./tests/ternary-operator-vs-if-else');
+// Importing test modules
+import { runDeepCloneProcess } from './tests/deep-clone.js';
+import { runForLoopComparisonProcess } from './tests/for-loop-comparison.js';
+import { runIfElseIfVsSwitchCaseProcess } from './tests/if-else-if-vs-switch-case.js';
+import { runNTimesTwoVsNPlusNProcess } from './tests/n-times-two-vs-n-plus-n.js';
+import { runOddEvenComparisonProcess } from './tests/odd-even-comparison.js';
+import { runTernaryOperatorVsIfElseProcess } from './tests/ternary-operator-vs-if-else.js';
 
 
-//? Call imported functions into following IIFE
+// Call imported functions into following IIFE
 (function () {
+  // Running each test
   runDeepCloneProcess();
   runForLoopComparisonProcess();
   runTernaryOperatorVsIfElseProcess();

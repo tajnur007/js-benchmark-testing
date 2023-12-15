@@ -1,10 +1,10 @@
 'use strict'
 
-const { runProcess } = require('../utils/helpers');
+import { runProcess } from '../utils/helpers.js';
 
 const animals = ['horse', 'rabbit', 'cat', 'dog', 'bear', 'sheep'];
 
-function runIfElseIfVsSwitchCaseProcess() {
+export function runIfElseIfVsSwitchCaseProcess() {
   console.log('\nStarting if-else-if ladder vs switch-case test.....');
   runProcess(usingIfElseIfLadder, usingSwitchCase);
   console.log('Process finished!\n');
@@ -56,7 +56,3 @@ function usingSwitchCase() {
     }
   }
 }
-
-module.exports = {
-  runIfElseIfVsSwitchCaseProcess,
-};

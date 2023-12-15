@@ -1,8 +1,8 @@
 'use strict'
 
-const { runProcessOnce } = require('../utils/helpers');
+import { runProcessOnce } from '../utils/helpers.js';
 
-function runForLoopComparisonProcess() {
+export function runForLoopComparisonProcess() {
   console.log('\nStarting loop comparison test.....');
   runProcessOnce(usingForOf, usingForEach, usingCachedFor);
   console.log('Process finished!\n');
@@ -34,7 +34,3 @@ function usingCachedFor(limit) {
     sum += nums[i];
   }
 }
-
-module.exports = {
-  runForLoopComparisonProcess,
-};

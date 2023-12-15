@@ -1,12 +1,12 @@
 'use strict'
 
-const { TESTING_LIMITS, LIMIT_STRINGS } = require('./constants');
+import { TESTING_LIMITS, LIMIT_STRINGS } from './constants.js';
 
 /**
  * Every function will be called until reach limit.
  * @param  {Array<Function>} functions - Array of functions to be tested.
  */
-function runProcess(...functions) {
+export function runProcess(...functions) {
   coreProcess(functions);
 }
 
@@ -14,7 +14,7 @@ function runProcess(...functions) {
  * Every function will be called only once by passing limit as param.
  * @param  {Array<Function>} functions - Array of functions to be tested.
  */
-function runProcessOnce(...functions) {
+export function runProcessOnce(...functions) {
   coreProcess(functions, true);
 }
 
@@ -86,8 +86,3 @@ function decorateFunctionName(name, isStarting = true) {
 
   console.log(lineString);
 }
-
-module.exports = {
-  runProcess,
-  runProcessOnce
-};

@@ -1,11 +1,11 @@
 'use strict'
 
-const { runProcess } = require('../utils/helpers');
+import { runProcess } from '../utils/helpers.js';
 
-//? Storing 1 to 1000 numbers into an array
+// Storing 1 to 1000 numbers into an array
 const nums = new Array(1000).fill(0).map((v, i) => i + 1);
 
-function runOddEvenComparisonProcess() {
+export function runOddEvenComparisonProcess() {
   console.log('\nStarting odd-even test using % and & operator.....');
   runProcess(usingModulusOperator, usingAmpersandOperator);
   console.log('Process finished!\n');
@@ -26,7 +26,3 @@ function usingAmpersandOperator() {
     isEven = (num & 1) ? false : true;
   }
 }
-
-module.exports = {
-  runOddEvenComparisonProcess,
-};

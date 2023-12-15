@@ -34,5 +34,6 @@
   "bugs": {
     "url": "https://github.com/tajnur007/js-benchmark-testing/issues"
   },
-  "homepage": "https://github.com/tajnur007/js-benchmark-testing#readme"
+  "homepage": "https://github.com/tajnur007/js-benchmark-testing#readme",
+  "type": "module"
 }

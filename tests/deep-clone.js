@@ -1,6 +1,6 @@
 'use strict'
 
-const { runProcess } = require('../utils/helpers');
+import { runProcess } from '../utils/helpers.js';
 
 //? The object, which one we would like to create a clone
 const obj = {
@@ -31,12 +31,8 @@ function deepCloneWithStructuredClone() {
   }
 }
 
-function runDeepCloneProcess() {
+export function runDeepCloneProcess() {
   console.log('\nStarting deep clone test.....');
   runProcess(deepCloneWithJSON, deepCloneWithStructuredClone);
   console.log('Process finished!\n');
 }
-
-module.exports = {
-  runDeepCloneProcess,
-};

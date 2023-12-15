@@ -1,11 +1,11 @@
 'use strict'
 
-const { runProcess } = require('../utils/helpers');
+import { runProcess } from '../utils/helpers.js';
 
-//? Storing 1 to 1000 numbers into an array
+// Storing 1 to 1000 numbers into an array
 const nums = new Array(1000).fill(0).map((v, i) => i + 1);
 
-function runTernaryOperatorVsIfElseProcess() {
+export function runTernaryOperatorVsIfElseProcess() {
   console.log('\nStarting ternary operator vs if-else test.....');
   runProcess(usingTernaryOperator, usingIfElse);
   console.log('Process finished!\n');
@@ -27,7 +27,3 @@ function usingIfElse() {
     else isEven = true;
   }
 }
-
-module.exports = {
-  runTernaryOperatorVsIfElseProcess,
-};
