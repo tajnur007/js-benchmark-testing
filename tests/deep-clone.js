@@ -15,7 +15,7 @@ const obj = {
   }
 };
 
-function usingJsonMethods() {
+function deepCloneWithJSON() {
   try {
     JSON.parse(JSON.stringify(obj));
   } catch (err) {
@@ -23,7 +23,7 @@ function usingJsonMethods() {
   }
 }
 
-function usingStructuredClone() {
+function deepCloneWithStructuredClone() {
   try {
     structuredClone(obj);
   } catch (err) {
@@ -33,7 +33,7 @@ function usingStructuredClone() {
 
 function runDeepCloneProcess() {
   console.log('\nStarting deep clone test.....');
-  runProcess(usingJsonMethods, usingStructuredClone);
+  runProcess(deepCloneWithJSON, deepCloneWithStructuredClone);
   console.log('Process finished!\n');
 }
 
