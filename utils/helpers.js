@@ -53,12 +53,9 @@ function runFunctionMultipleTimes(func, limit) {
 }
 
 function decorateFunctionName(name, isStarting = true) {
-  name = '---  Testing `' + name + '()` method  ---';
+  name = `---  Testing \`${name}()\` method  ---`;
 
-  let len = name.length;
-  let lineString = '';
-
-  while (len--) lineString += '-';
+  const lineString = '-'.repeat(name.length);
 
   if (isStarting) {
     console.log();  // Line break
