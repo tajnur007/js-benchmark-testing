@@ -15,17 +15,17 @@ function usingIfElseIfLadder() {
 
   for (let animal of animals) {
     if (animal === 'horse') {
-      count++;
+      count += 5;
     } else if (animal === 'rabbit') {
-      count++;
+      count *= 3;
     } else if (animal === 'cat') {
-      count++;
+      count -= 7;
     } else if (animal === 'dog') {
-      count++;
+      count /= 2;
     } else if (animal === 'bear') {
       count++;
     } else {
-      count++;
+      count *= count;
     }
   }
 }
@@ -36,22 +36,22 @@ function usingSwitchCase() {
   for (let animal of animals) {
     switch (animal) {
       case 'horse':
-        count++;
+        count += 5;
         break;
       case 'rabbit':
-        count++;
+        count *= 3;
         break;
       case 'cat':
-        count++;
+        count -= 7;
         break;
       case 'dog':
-        count++;
+        count /= 2;
         break;
       case 'bear':
         count++;
         break;
       default:
-        count++;
+        count *= count;
         break;
     }
   }
