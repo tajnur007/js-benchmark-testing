@@ -1,10 +1,6 @@
 <div align="center">
-  <h1>
-    <span style="display: inline-block; border-bottom: 3px dashed green; padding: 3px 20px;">
-      JavaScript Benchmark Testing
-    </span> <br/>
-    <small>Comparing Common Operations</small>
-  </h1>
+  <img src='./assets/images/logo-js-benchmark.png' width='120px' height='115px'>
+  <h1>JavaScript Benchmark Testing</h1>
 </div>
 
 Welcome to the **JavaScript Benchmark Testing** repository! This collection of benchmarks aims to provide in-depth insights into the performance characteristics of various JavaScript operations. Whether you're optimizing code for speed or simply curious about the efficiency of different approaches, these benchmarks offer valuable information.
@@ -30,25 +26,49 @@ To run the benchmarks locally, follow these steps:
 
 This section compares two prevalent methods for deep cloning objects in JavaScript: utilizing `JSON.parse` and employing the `structuredClone` approach. Explore the benchmarks to understand the performance trade-offs and choose the optimal method for your use case.
 
+<div>
+  <img src='./assets/images/deep-clone.png'>
+</div>
+
 ## Loops Comparison
 
 Delve into the world of loops with benchmarks comparing `for-of`, `for-each`, and a cached `for` loop. Uncover the nuances of each loop construct and discover the most efficient solution for your iteration needs.
+
+<div>
+  <img src='./assets/images/loop.png'>
+</div>
 
 ## Condition Check Comparison
 
 Compare the performance of the ternary operator against `if-else` statements in this section. Gain insights into the impact on execution speed, helping you make informed decisions when structuring your conditional logic.
 
+<div>
+  <img src='./assets/images/conditional.png'>
+</div>
+
 ## Odd-Even Comparison
 
 Dive into the realm of bitwise operations with benchmarks comparing the `%` (modulo) operator and the `&` (bitwise AND) operator for determining odd and even numbers. Explore the performance characteristics of each method and optimize your numeric checks.
+
+<div>
+  <img src='./assets/images/odd-even.png'>
+</div>
 
 ## If-Else-If Ladder vs Switch-Case
 
 Explore benchmarks comparing the performance of `if-else-if` ladders against `switch-case` constructs. Uncover the efficiency of each approach, empowering you to choose the best construct for your complex branching logic.
 
+<div>
+  <img src='./assets/images/if-else-if-vs-switch-case.png'>
+</div>
+
 ## N * 2 vs N + N Comparison
 
 Discover the performance nuances between multiplying a number by 2 (`N * 2`) and adding the number to itself (`N + N`). Gain insights into the arithmetic operations that suit your numerical manipulations best.
+
+<div>
+  <img src='./assets/images/n-times-2-vs-n-plus-n.png'>
+</div>
 
 ## Further Improvements
 
