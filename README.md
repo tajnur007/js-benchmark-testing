@@ -27,7 +27,7 @@ To run the benchmarks locally, follow these steps:
 
 ## Object Deep Clone Comparison
 
-This section compares two prevalent methods for deep cloning objects in JavaScript: utilizing `JSON.parse` and employing the `structuredClone` approach. Explore the benchmarks to understand the performance trade-offs and choose the optimal method for your use case.
+This section compares two prevalent methods for deep cloning objects in JavaScript: utilizing `JSON.parse` and employing the `structuredClone` approach. Explore the benchmarks to understand the performance trade-offs and choose the optimal method for your use case. [Check code](./tests/deep-clone.js)
 
 <div>
   <img src='./assets/images/deep-clone.png'>
@@ -35,7 +35,7 @@ This section compares two prevalent methods for deep cloning objects in JavaScri
 
 ## Loops Comparison
 
-Delve into the world of loops with benchmarks comparing `for-of`, `for-each`, and a cached `for` loop. Uncover the nuances of each loop construct and discover the most efficient solution for your iteration needs.
+Delve into the world of loops with benchmarks comparing `for-of`, `for-each`, and a cached `for` loop. Uncover the nuances of each loop construct and discover the most efficient solution for your iteration needs. [Check code](./tests/for-loop-comparison.js)
 
 <div>
   <img src='./assets/images/loop.png'>
@@ -43,7 +43,7 @@ Delve into the world of loops with benchmarks comparing `for-of`, `for-each`, an
 
 ## Condition Check Comparison
 
-Compare the performance of the ternary operator against `if-else` statements in this section. Gain insights into the impact on execution speed, helping you make informed decisions when structuring your conditional logic.
+Compare the performance of the ternary operator against `if-else` statements in this section. Gain insights into the impact on execution speed, helping you make informed decisions when structuring your conditional logic. [Check code](./tests/ternary-operator-vs-if-else.js)
 
 <div>
   <img src='./assets/images/conditional.png'>
@@ -51,7 +51,7 @@ Compare the performance of the ternary operator against `if-else` statements in 
 
 ## Odd-Even Comparison
 
-Dive into the realm of bitwise operations with benchmarks comparing the `%` (modulo) operator and the `&` (bitwise AND) operator for determining odd and even numbers. Explore the performance characteristics of each method and optimize your numeric checks.
+Dive into the realm of bitwise operations with benchmarks comparing the `%` (modulo) operator and the `&` (bitwise AND) operator for determining odd and even numbers. Explore the performance characteristics of each method and optimize your numeric checks. [Check code](./tests/odd-even-comparison.js)
 
 <div>
   <img src='./assets/images/odd-even.png'>
@@ -59,7 +59,7 @@ Dive into the realm of bitwise operations with benchmarks comparing the `%` (mod
 
 ## If-Else-If Ladder vs Switch-Case
 
-Explore benchmarks comparing the performance of `if-else-if` ladders against `switch-case` constructs. Uncover the efficiency of each approach, empowering you to choose the best construct for your complex branching logic.
+Explore benchmarks comparing the performance of `if-else-if` ladders against `switch-case` constructs. Uncover the efficiency of each approach, empowering you to choose the best construct for your complex branching logic. [Check code](./tests/if-else-if-vs-switch-case.js)
 
 <div>
   <img src='./assets/images/if-else-if-vs-switch-case.png'>
@@ -67,7 +67,7 @@ Explore benchmarks comparing the performance of `if-else-if` ladders against `sw
 
 ## N * 2 vs N + N Comparison
 
-Discover the performance nuances between multiplying a number by 2 (`N * 2`) and adding the number to itself (`N + N`). Gain insights into the arithmetic operations that suit your numerical manipulations best.
+Discover the performance nuances between multiplying a number by 2 (`N * 2`) and adding the number to itself (`N + N`). Gain insights into the arithmetic operations that suit your numerical manipulations best. [Check code](./tests/n-times-two-vs-n-plus-n.js)
 
 <div>
   <img src='./assets/images/n-times-2-vs-n-plus-n.png'>
