@@ -1,8 +1,13 @@
 <div align="center">
-  <h1>JavaScript Benchmark Testing: Comparing Common Operations</h1>
+  <h1>
+    <span style="display: inline-block; border-bottom: 3px dashed green; padding: 3px 20px;">
+      JavaScript Benchmark Testing
+    </span> <br/>
+    <small>Comparing Common Operations</small>
+  </h1>
 </div>
 
-Welcome to the <strong>JavaScript Benchmark Testing</strong> repository! This collection of benchmarks aims to provide in-depth insights into the performance characteristics of various JavaScript operations. Whether you're optimizing code for speed or simply curious about the efficiency of different approaches, these benchmarks offer valuable information.
+Welcome to the **JavaScript Benchmark Testing** repository! This collection of benchmarks aims to provide in-depth insights into the performance characteristics of various JavaScript operations. Whether you're optimizing code for speed or simply curious about the efficiency of different approaches, these benchmarks offer valuable information.
 
 ## Running the Benchmarks
 
