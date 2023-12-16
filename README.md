@@ -5,6 +5,9 @@
 
 Welcome to the **JavaScript Benchmark Testing** repository! This collection of benchmarks aims to provide in-depth insights into the performance characteristics of various JavaScript operations. Whether you're optimizing code for speed or simply curious about the efficiency of different approaches, these benchmarks offer valuable information.
 
+> [!NOTE]
+> The testing results may vary based on your device. I conducted a series of tests on my own device, a Lenovo X1 Yoga with a Core i7 8th gen processor, 512 GB SSD, and 16 GB RAM, and have included the corresponding screenshots of the results for your reference. Keep in mind that different device configurations could yield different outcomes, so it's advisable to run the tests on your specific hardware for accurate comparisons.
+
 ## Running the Benchmarks
 
 To run the benchmarks locally, follow these steps:
